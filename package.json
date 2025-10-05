@@ -1,0 +1,17 @@
+{
+  "name": "remy.duthu.org",
+  "version": "1.0.0",
+  "description": "Personal site of Rémy Duthu.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Rémy Duthu",
+  "license": "ISC",
+  "packageManager": "pnpm@10.16.0",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.14"
+  }
+}

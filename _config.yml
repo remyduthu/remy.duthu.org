@@ -1,0 +1,9 @@
+url: "https://remy.duthu.org"
+baseurl: ""
+title: "Rémy Duthu"
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false # Use Tailwind CSS JIT engine instead.
