@@ -46,10 +46,17 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Setup Node.js
+      # https://github.com/marketplace/actions/setup-pnpm#use-cache-to-reduce-installation-time
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 10
+          run_install: false
+
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: 22
           cache: "pnpm"
 
       - name: Install dependencies
