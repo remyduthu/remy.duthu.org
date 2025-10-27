@@ -16,7 +16,11 @@ a {
 }
 
 blockquote {
-  @apply border-l pl-2 text-gray-600;
+  @apply border-l p-2;
+}
+
+pre {
+  @apply p-2 whitespace-pre-wrap;
 }
 
 img,
