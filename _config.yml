@@ -3,7 +3,11 @@ baseurl: ""
 title: "Rémy Duthu"
 
 plugins:
+  - jekyll-archives
+  - jekyll-feed
   - jekyll-postcss
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 postcss:
   cache: false # Use Tailwind CSS JIT engine instead.
