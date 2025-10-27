@@ -1,6 +1,7 @@
 url: "https://remy.duthu.org"
 baseurl: ""
 title: "Rémy Duthu"
+description: "Personal site of Rémy Duthu"
 
 plugins:
   - jekyll-archives
