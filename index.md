@@ -2,6 +2,8 @@
 layout: default
 ---
 
+![Water](/assets/images/water.jpeg)
+
 Hi 👋, I'm a software engineer living in France.
 
 I'm currently working at [Mergify](https://mergify.com){:target="\_blank" rel="noopener noreferrer"}.
