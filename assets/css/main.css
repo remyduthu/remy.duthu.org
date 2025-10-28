@@ -20,7 +20,7 @@ blockquote {
 }
 
 pre {
-  @apply p-2 whitespace-pre-wrap;
+  @apply whitespace-pre-wrap;
 }
 
 img,
