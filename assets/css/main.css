@@ -20,7 +20,7 @@ blockquote {
 }
 
 pre {
-  @apply whitespace-pre-wrap;
+  @apply max-w-[80vw] overflow-x-auto;
 }
 
 img,
