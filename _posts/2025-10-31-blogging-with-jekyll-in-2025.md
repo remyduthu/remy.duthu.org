@@ -25,7 +25,7 @@ So, a few weeks ago, I decided to build something very minimal.
 A simple website, made with very boring tech.
 No fancy frameworks, no endless dependencies.
 
-I knew I wanted to keep control of the underlying code (that’s my nerd side talking) so I didn’t want to use platforms like Medium or Substack for now.
+I knew I wanted to keep control of the underlying code (which is available [here](https://github.com/remyduthu/remy.duthu.org)) so I didn’t want to use platforms like Medium or Substack for now.
 Plus, I have no business goals here.
 I just want a space to share thoughts, even if they don’t make sense to anyone but me.
 
@@ -39,7 +39,7 @@ The project was up and running in… what, maybe four hours?
 All these years of hesitation, and that was it.
 
 First, I [installed Jekyll](https://jekyllrb.com/docs/installation/macos/) locally.
-Make sure to install the latest version of Ruby, not the one bundled with MacOS.
+Just make sure to install the latest version of Ruby, not the one bundled with MacOS.
 
 Then, the only slightly tricky part was integrating [Tailwind CSS](https://tailwindcss.com).
 To do that, I installed and configured a PostCSS gem called [`jekyll-postcss-v2`](https://rubygems.org/gems/jekyll-postcss-v2).
@@ -65,7 +65,7 @@ postcss:
   cache: false # Use Tailwind CSS JIT engine instead.
 ```
 
-The last step was to [install Tailwind CSS](https://tailwindcss.com/docs/installation/using-postcss) and create its configuration file:
+The next step was to [install Tailwind CSS](https://tailwindcss.com/docs/installation/using-postcss) and create its configuration file:
 
 ```js
 // tailwind.config.js
@@ -85,6 +85,41 @@ h1 {
   /* Utility classes and the @apply keywords are available. */
   @apply text-xl;
 }
+```
+
+The last step was to automate everything with GitHub Actions.
+I used [the official template](https://jekyllrb.com/docs/continuous-integration/github-actions/) and just added the steps required to install [pnpm](https://pnpm.io) dependencies:
+
+```yaml
+jobs:
+  build:
+    steps:
+      # ...
+
+      # https://github.com/marketplace/actions/setup-pnpm#use-cache-to-reduce-installation-time
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          run_install: false
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default.
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default.
+        uses: actions/upload-pages-artifact@v3
 ```
 
 And voilà!
