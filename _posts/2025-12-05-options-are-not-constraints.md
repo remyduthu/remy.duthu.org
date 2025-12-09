@@ -8,7 +8,7 @@ Way too often, I see my options as constraints.
 
 > Should I go for a run, a hike, climbing? Should I continue this task, start this project, take a break?
 
-I have to keep in ming that simply having these options is a form of wealth.
+I have to keep in mind that simply having these options is a form of wealth.
 Being able to overthink these decisions is an incredibly precious thing.
 
 So, yes, [decision fatigue](https://en.wikipedia.org/wiki/Decision_fatigue) is real, and we shouldn’t ignore it.
