@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Blogging with Jekyll in 2025
+description: How I set up a minimal blog with Jekyll, Tailwind CSS, and GitHub Pages in about four hours — and why boring tech felt like the right choice.
+tags: [jekyll, blogging, tailwind]
 ---
 
 Wait wait wait I know it’s not flashy.

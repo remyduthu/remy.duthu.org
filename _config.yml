@@ -3,6 +3,17 @@ baseurl: ""
 title: "Rémy Duthu"
 description: "Personal site of Rémy Duthu"
 
+author:
+  name: "Rémy Duthu"
+  url: "https://remy.duthu.org"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      image: /assets/images/og/default.png
+
 plugins:
   - jekyll-archives
   - jekyll-feed

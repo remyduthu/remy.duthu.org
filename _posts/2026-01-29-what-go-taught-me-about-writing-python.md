@@ -1,6 +1,8 @@
 ---
 layout: post
 title: What Go Taught Me About Writing Python
+description: Six months after switching from Go to Python in production — a reflection on typing, tooling, testing, and what carries over between languages.
+tags: [go, python, developer-experience]
 ---
 
 Six months ago, I stopped writing Go every day and started shipping Python to production.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Dependencies, Inputs, Outputs: My Shortcut To Write Tests"
+description: A simple three-step method to break through the mental block of writing unit tests — list dependencies, inputs, and outputs before writing any code.
+tags: [testing, developer-experience, python]
 ---
 
 I often struggle with writing unit tests.

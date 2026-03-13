@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "How I Work With Parallel Agents"
+description: How I run two Claude Code agents in parallel using git worktrees, plan mode, and custom hooks — and what changes downstream when agents do the bulk of the implementation.
+tags: [ai, claude-code, developer-experience, workflow]
 ---
 
 For years, I optimized for flow. Long, uninterrupted blocks where I could hold an entire problem in my head, move from A to B without touching C or D. I read the deep work literature, silenced notifications, closed Slack. It worked.

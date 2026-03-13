@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Copilot Inline Suggestions Are Like TikTok
+description: Why I turned off GitHub Copilot's inline suggestions and started using AI as an actual copilot — someone I ask for help when I want it.
+tags: [ai, developer-experience, copilot]
 ---
 
 I’ve spent the last few months using GitHub Copilot without inline suggestions.

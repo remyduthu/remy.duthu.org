@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Options Are Not Constraints
+description: A reminder that having too many choices is a form of wealth, not a burden — and that decision fatigue shouldn't make us forget how lucky we are.
+tags: [personal]
 ---
 
 This short article is a gentle reminder to myself.
