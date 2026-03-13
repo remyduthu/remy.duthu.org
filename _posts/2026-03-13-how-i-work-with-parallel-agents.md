@@ -33,4 +33,4 @@ To stay on top of the review load, I asked Claude Code to build two GitHub CLI e
 
 ![gh-reviews-dashboard](/assets/images/gh-reviews-dashboard.png)
 
-I don't think this way of working is for everyone, or for every task. Some problems still reward, maybe even require, sustained single-threaded focus. But for the kind of feature work and maintenance that makes up the bulk of a product engineer's week, learning to manage agents in parallel has been a meaningful shift. The skill isn't prompting anymore. It's orchestrating.
+I don't think this way of working is for everyone, or for every task, and it'll probably still change a lot in the future. Some problems still reward, maybe even require, sustained single-threaded focus. But for the kind of feature work and maintenance that makes up the bulk of a product engineer's week, learning to manage agents in parallel has been a meaningful shift for me. The skill isn't prompting anymore. It's more orchestrating.
