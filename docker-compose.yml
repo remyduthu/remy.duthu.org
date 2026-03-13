@@ -1,0 +1,9 @@
+services:
+  jekyll:
+    build: .
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll/
+      - /srv/jekyll/.bundle/
+      - /srv/jekyll/node_modules/
