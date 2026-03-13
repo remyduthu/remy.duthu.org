@@ -1,6 +1,6 @@
 # remy.duthu.org
 
-Personal site of Rémy DUTHU, built with Jekyll and Tailwind CSS.
+Personal site of Rémy Duthu, built with Jekyll and Tailwind CSS.
 
 ## Local development
 
