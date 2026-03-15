@@ -28,3 +28,37 @@ svg,
 video {
   @apply block max-w-full;
 }
+
+.image-metadata-figure {
+  @apply relative;
+}
+
+.image-metadata-overlay {
+  @apply
+    absolute
+    bottom-0
+    duration-200
+    flex
+    flex-wrap
+    font-mono
+    gap-x-2
+    items-center
+    justify-center
+    left-0
+    opacity-0
+    p-2
+    right-0
+    text-[10px]
+    text-white
+    transition-opacity;
+}
+
+.image-metadata-overlay span + span::before {
+  @apply mr-2;
+  content: "·";
+}
+
+.image-metadata-figure:hover .image-metadata-overlay,
+.image-metadata-figure.active .image-metadata-overlay {
+  @apply opacity-100;
+}

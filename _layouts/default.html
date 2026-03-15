@@ -18,5 +18,11 @@
         {{ content }}
       </div>
     </div>
+    <script>
+      document.addEventListener("click", (event) => {
+        var figure = event.target.closest(".image-metadata-figure");
+        if (figure) figure.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
