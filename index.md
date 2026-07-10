@@ -10,4 +10,4 @@ I'm currently working at [Mergify](https://mergify.com){:target="\_blank" rel="n
 
 This is my playground on the internet where I share my experiments, ideas, and thoughts.
 
-You can find me on [GitHub](https://github.com/remyduthu){:target="\_blank" rel="noopener noreferrer"} and [LinkedIn](https://www.linkedin.com/in/remy-d/){:target="\_blank" rel="noopener noreferrer"}.
+You can find me on [GitHub](https://github.com/remyduthu){:target="\_blank" rel="noopener noreferrer"} and [LinkedIn](https://www.linkedin.com/in/remy-d/){:target="\_blank" rel="noopener noreferrer"}, or reach me by [email](mailto:remyduthu@icloud.com).
