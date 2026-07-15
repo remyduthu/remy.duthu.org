@@ -9,16 +9,17 @@ I ship a lot of pull requests and the process to ship them barely changes shape 
 I pull the change into a worktree, split it into [commits that can each deploy on their own](https://en.wikipedia.org/wiki/Atomic_commit), review my own code, run the affected tests, push the stack, and watch the CI.
 It's the kind of routine I stopped having to think about years ago, which is exactly why I assumed an AI agent could take it over.
 
-Back in February I wrote a couple of [Claude Code skills](https://code.claude.com/docs/en/skills) to teach one how I ship, and they didn't help me so much.
-The agent didn't use my own workflow.
+Back in February I wrote a couple of [Claude Code skills](https://code.claude.com/docs/en/skills) to teach one how I ship.
+This first step didn't help because the agent didn't use my specific workflow.
 Each PR added more feedback loops for me to close than I'd have had just doing the work myself.
 
 ## Where I went wrong
 
 The honest answer is that I tried to build them for the wrong person.
-I wrote those skills to be generic and reusable, with a vague plan to release them inside [Mergify](https://mergify.com/) someday, so I kept anything specific to me out of them.
-That was the whole mistake.
-The reason I wanted the skills at all was to capture how I work, and I'd sanded exactly that off to make them presentable to an audience who didn't exist yet.
+I wrote those skills to be generic and reusable.
+I went with a vague plan to release them inside [Mergify](https://mergify.com/) someday.
+The problem is that I kept anything specific to me out of them.
+The reason I wanted the skills at all was to capture how I work, and I'd removed exactly that off to make them presentable to an audience who didn't exist yet.
 What was left was general enough to apply anywhere and useless to the one person it was for.
 
 <figure style="text-align: center;">
