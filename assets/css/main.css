@@ -31,8 +31,10 @@ pre {
   @apply max-w-[80vw] overflow-x-auto;
 }
 
-img,
-svg,
-video {
-  @apply block max-w-full;
+@layer base {
+  img,
+  svg,
+  video {
+    @apply block max-w-full;
+  }
 }

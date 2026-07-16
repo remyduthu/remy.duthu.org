@@ -22,8 +22,8 @@ The problem is that I kept anything specific to me out of them.
 The reason I wanted the skills at all was to capture how I work, and I'd removed exactly that off to make them presentable to an audience who didn't exist yet.
 What was left was general enough to apply anywhere and useless to the one person it was for.
 
-<figure style="text-align: center;">
-  <img src="/assets/images/overengineering.webp" alt="overengineering" style="max-width: 480px; margin: 0 auto;">
+<figure class="flex flex-col items-center gap-2">
+  <img src="/assets/images/overengineering.webp" alt="overengineering" class="max-w-[75%]">
   <figcaption class="text-sm"><a href="https://www.reddit.com/r/ProgrammerHumor/comments/emlfkq/i_choked/">r/ProgrammerHumor</a></figcaption>
 </figure>
 
